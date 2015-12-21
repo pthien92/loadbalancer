@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Osmorc" name="OSGi">
+      <configuration manifestGenerationMode="OsmorcControlled" manifestLocation="" jarfileLocation="loadbalancer-api-org.opendaylight.loadbalancer.jar" outputPathType="CompilerOutputPath" bndFileLocation="" bundlorFileLocation="" bundleActivator="" bundleSymbolicName="org.opendaylight.loadbalancer.api" bundleVersion="0.0.0.org_opendaylight_loadbalancer" ignoreFilePattern="" useProjectDefaultManifestFileLocation="true" alwaysRebuildBundleJAR="false" doNotSynchronizeWithMaven="false">
+        <additionalProperties>
+          <property key="Bundle-Name" value="loadbalancer-api" />
+        </additionalProperties>
+        <additionalJARContents />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_7" inherit-compiler-output="false">
+    <output url="file://$MODULE_DIR$/target/classes" />
+    <output-test url="file://$MODULE_DIR$/target/test-classes" />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Maven: org.opendaylight.yangtools:yang-binding:0.7.0-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: org.opendaylight.yangtools:concepts:0.7.0-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: org.opendaylight.yangtools:util:0.7.0-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: com.google.code.findbugs:jsr305:2.0.3" level="project" />
+    <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.2" level="project" />
+    <orderEntry type="library" name="Maven: com.github.romix:java-concurrent-hash-trie-map:0.2.23" level="project" />
+    <orderEntry type="library" name="Maven: org.opendaylight.yangtools:yang-common:0.7.0-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: org.opendaylight.yangtools:object-cache-api:0.7.0-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: com.google.guava:guava:18.0" level="project" />
+  </component>
+</module>
